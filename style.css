@@ -1,0 +1,32 @@
+section {
+    display: flex;
+}
+
+.tarjeta {
+    border: 1px solid black;
+    width: 250px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    text-align: center;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tarjeta .imagen img {
+    width: 100%;
+    height: auto;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rojo {
+    color: red;
+}
+
+
